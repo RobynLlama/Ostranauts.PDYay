@@ -8,7 +8,7 @@ public class CommandPDAToggle_Patches
   internal static bool Execute_Prefix(CommandPDAToggle __instance)
   {
 
-    PDYayPlugin.Log.LogInfo("Running Execute():Prefix");
+    //PDYayPlugin.Log.LogInfo("Running Execute():Prefix");
 
     if (!(CanvasManager.instance == null) && !CrewSim.bRaiseUI && CrewSim.objInstance != null && __instance.Down)
     {
